@@ -1,11 +1,14 @@
 <div class="container" id="home-container">
   <div class="jumbotron text-center text-white">
     <h1 class="display-4">Alpha Blog</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured
-      content or information.</p>
+    <div class="row justify-content-center">
+      <h4 class="col-10 my-4">
+        Alpha blog is a personal project of Gavin Rouse created in order to
+        learn Ruby on Rails and showcase my ability.
+      </h4>
+    </div>
     <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+    <h5>Welcome! Please explore and enjoy! </h5>
+    <%= link_to "Sign Up!", signup_path, class: "btn btn-info btn-lg" %>
   </div>
 </div>
